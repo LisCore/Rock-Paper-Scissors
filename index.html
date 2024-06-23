@@ -5,12 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="script.js"></script>
+    <script src="script1.js" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Hello World!</h1>
+    <h1>RPS Game</h1>
+    <div id="game">
+        <div id="ai">
+            <h2>AI</h2>
+            <p id="aichose">AI Chose: </p>
+        </div>
+        <div id="results">
+            <p id="round">Round: </p>
+        </div>
+        <div id="player">
+            <h2>Player</h2>
+            <div class="choice">
+                <button id="rock">Rock</button>
+                <button id="paper">Paper</button>
+                <button id="scissors">Scissors</button>
+            </div>
+        </div>
+    </div>
+    <div id="score">
+        <p id="win">Wins: 0</p>
+        <p id="lost">Lost: 0</p>
+        <p id="draw">Draw: 0</p>
+    </div>
 </body>
 
 </html>
